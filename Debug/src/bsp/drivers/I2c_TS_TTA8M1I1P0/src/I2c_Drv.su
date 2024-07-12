@@ -1,0 +1,8 @@
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:165:I2c_Drv_Init	16	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:250:I2c_Drv_DeInit	8	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:303:I2c_Drv_SyncTransmit	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:345:I2c_Drv_AsyncTransmit	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:390:I2c_Drv_AsyncReceive	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:434:I2c_Drv_SyncReceive	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:483:I2c_Drv_GetStatus	8	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Drv.c:533:I2c_Drv_SetTargetAdderss	8	static

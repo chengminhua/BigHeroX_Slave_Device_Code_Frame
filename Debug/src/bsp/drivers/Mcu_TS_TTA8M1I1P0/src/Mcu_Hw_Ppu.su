@@ -1,0 +1,9 @@
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:184:Mcu_Hw_Ppu_DisAccessControl	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:257:Mcu_Hw_Ppu_EnAccessControl	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:330:Mcu_Hw_Ppu_DisUserAccess	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:872:Mcu_Hw_Ppu_PriDisUserAccessAhb	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:398:Mcu_Hw_Ppu_EnUserAccess	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:471:Mcu_Hw_Ppu_Config	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:557:Mcu_Hw_Ppu_GetErrStatus	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:621:Mcu_Hw_Ppu_ClearErrStatus	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Ppu.c:938:Mcu_Hw_Ppu_PriClearAhbErrStatus	0	static

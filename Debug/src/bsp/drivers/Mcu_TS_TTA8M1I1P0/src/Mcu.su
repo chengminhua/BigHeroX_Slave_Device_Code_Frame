@@ -1,0 +1,9 @@
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:336:Mcu_Init	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:416:Mcu_InitRamSection	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:472:Mcu_InitClock	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:535:Mcu_DistributePllClock	24	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:696:Mcu_GetPllStatus	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:756:Mcu_GetResetReason	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:804:Mcu_GetResetRawValue	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:846:Mcu_PerformReset	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu.c:883:Mcu_SetMode	0	static

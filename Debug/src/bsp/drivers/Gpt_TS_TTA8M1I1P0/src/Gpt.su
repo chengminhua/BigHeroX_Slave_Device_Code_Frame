@@ -1,0 +1,11 @@
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:286:Gpt_GetVersionInfo	24	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:319:Gpt_Init	32	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:410:Gpt_DeInit	32	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:482:Gpt_GetTimeElapsed	24	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:538:Gpt_GetTimeRemaining	32	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:597:Gpt_StartTimer	40	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:649:Gpt_StopTimer	32	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:689:Gpt_EnableNotification	24	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:729:Gpt_DisableNotification	24	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:855:Gpt_GetPredefTimerValue	24	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt.c:972:FTM1_IRQHandler	16	static

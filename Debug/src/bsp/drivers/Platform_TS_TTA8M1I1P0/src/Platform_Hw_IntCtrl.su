@@ -1,0 +1,15 @@
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:113:Platform_Hw_IntCtrl_Init	24	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:258:Platform_Hw_IntCtrl_GroupingSetPriority	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:468:Platform_Hw_IntCtrl_ClearPendingIRQ	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:189:Platform_Hw_IntCtrl_SetPriority	8	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:323:Platform_Hw_IntCtrl_EnableIRQ	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:382:Platform_Hw_IntCtrl_DisableIRQ	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:297:Platform_Hw_IntCtrl_GroupingGetPriority	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:227:Platform_Hw_IntCtrl_GetPriority	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:355:Platform_Hw_IntCtrl_GetEnableIRQ	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:415:Platform_Hw_IntCtrl_GetPendingIRQ	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:442:Platform_Hw_IntCtrl_SetPendingIRQ	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:497:Platform_Hw_IntCtrl_GetActive	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:523:Platform_Hw_IntCtrl_SoftTrig	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:555:Platform_Hw_IntCtrl_EncodePriority	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_IntCtrl.c:599:Platform_Hw_IntCtrl_DecodePriority	16	static

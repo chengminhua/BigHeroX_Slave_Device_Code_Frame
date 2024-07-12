@@ -1,0 +1,2 @@
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw_Irq.c:151:Dio_Hw_Interrupt_Init	0	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw_Irq.c:243:Dio_Hw_Interrupt_DeInit	0	static

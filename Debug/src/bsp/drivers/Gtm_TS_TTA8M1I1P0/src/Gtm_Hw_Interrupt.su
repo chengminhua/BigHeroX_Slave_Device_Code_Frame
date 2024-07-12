@@ -1,0 +1,4 @@
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Interrupt.c:1154:Gtm_Hw_Interrupt_TimIntInit	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Interrupt.c:1472:Gtm_Hw_Interrupt_TomIntInit	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Interrupt.c:1888:Gtm_Hw_Interrupt_PriTimIntInitCheck	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Interrupt.c:2006:Gtm_Hw_Interrupt_PriTomIntInitCheck	0	static

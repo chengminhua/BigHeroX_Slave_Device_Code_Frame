@@ -1,0 +1,10 @@
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:296:Gtm_Hw_Arch_Cmu_Init	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:428:Gtm_Hw_Cmu_DeInit	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:454:Gtm_Hw_Cmu_Start	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:491:Gtm_Hw_Cmu_Stop	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:516:Gtm_Hw_Cmu_GetClock	32	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:683:Gtm_Hw_Cmu_PriGetClusterClk	24	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:725:Gtm_Hw_Cmu_PriGetClk	24	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:827:Gtm_Hw_Cmu_PriGetCfguClock	24	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:573:Gtm_Hw_Cmu_SetClock	40	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Cmu.c:622:Gtm_Hw_Cmu_SetClsClockMonitor	0	static

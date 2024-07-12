@@ -1,0 +1,6 @@
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Hw.c:264:Port_Hw_Init	32	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Hw.c:913:Port_Hw_PriSetPinCfg	40	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Hw.c:323:Port_Hw_SetPinDirection	40	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Hw.c:417:Port_Hw_SetPinMode	32	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Hw.c:482:Port_Hw_SetPinAllCfg	40	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Hw.c:630:Port_Hw_PriDiolclClkControl	0	static

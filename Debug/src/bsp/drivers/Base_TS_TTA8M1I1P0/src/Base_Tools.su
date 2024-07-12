@@ -1,0 +1,6 @@
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Tools.c:768:Base_MemCpy	32	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Tools.c:849:Base_MemCmp	32	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Tools.c:941:Base_MemSet	24	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Tools.c:1018:Base_MemCmpByte	24	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Tools.c:1069:Base_AccumulateCRC	8	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Tools.c:1113:Base_FinalizeCRC	0	static

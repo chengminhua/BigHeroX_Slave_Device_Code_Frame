@@ -1,0 +1,13 @@
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:657:Uart_Hw_Init	40	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:844:Uart_Hw_DeInit	32	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:919:Uart_Hw_SyncTransmit	16	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1019:Uart_Hw_AsyncTransmit	24	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1102:Uart_Hw_SyncReceive	24	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:2287:Uart_Hw_PriRxLineIntHandler	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1210:Uart_Hw_AsyncReceive	24	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1298:Uart_Hw_GetStatus	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1348:Uart_Hw_GetErrorStatus	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1420:Uart_Hw_SetBaudrate	16	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:1488:UART1_COMBINE_IRQHandler	32	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:2106:Uart_Hw_PriDmaTx0	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hw.c:2121:Uart_Hw_PriDmaRx0	0	static

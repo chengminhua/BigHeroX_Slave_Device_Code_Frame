@@ -1,0 +1,4 @@
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Rtc.c:106:Mcu_Hw_Rtc_Init	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Rtc.c:159:Mcu_Hw_Rtc_Start	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Rtc.c:194:Mcu_Hw_Rtc_GetState	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Rtc.c:221:Mcu_Hw_Rtc_Clear	0	static

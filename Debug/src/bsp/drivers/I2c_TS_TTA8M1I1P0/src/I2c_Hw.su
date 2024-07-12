@@ -1,0 +1,14 @@
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:516:I2c_Hw_Init	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:642:I2c_Hw_DeInit	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:701:I2c_Hw_SyncTransmit	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:1832:I2c_Hw_PriMasterClearIntr	0	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:2224:I2c_Hw_PriUnlockDeadlock	0	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:830:I2c_Hw_AsyncTransmit	16	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:938:I2c_Hw_AsyncReceive	16	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:1070:I2c_Hw_SyncReceive	32	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:1209:I2c_Hw_GetStatus	0	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:1240:I2C0_IRQHandler	0	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:2189:I2c_Hw_PriIrqHandler	24	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:1254:I2C1_IRQHandler	0	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:1275:I2c_Hw_SetTargetAdderss	0	static
+../src/bsp/drivers/I2c_TS_TTA8M1I1P0/src/I2c_Hw.c:2046:I2c_Hw_PriSlaveClearIntr	0	static

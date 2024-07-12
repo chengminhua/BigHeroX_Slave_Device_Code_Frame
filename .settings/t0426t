@@ -1,0 +1,216 @@
+adapter driver jlink
+
+transport select swd
+
+source [find target/swj-dp.tcl]
+source [find mem_helper.tcl]
+
+if { [info exists CHIPNAME] } {
+   set _CHIPNAME $CHIPNAME
+} else {
+   set _CHIPNAME a8v2_m7
+}
+
+set _ENDIAN little
+
+# Work-area is a space in RAM used for flash programming
+# By default use 32kB + 2KB store flash_algo
+if { [info exists WORKAREASIZE] } {
+   set _WORKAREASIZE $WORKAREASIZE
+} else {
+   set _WORKAREASIZE 0x8800
+}
+
+#jtag scan chain
+if { [info exists CPUTAPID] } {
+   set _CPUTAPID $CPUTAPID
+} else {
+   if { [using_jtag] } {
+      set _CPUTAPID 0x6ba00477
+   } {
+      set _CPUTAPID 0x2ba01477
+   }
+}
+
+swj_newdap $_CHIPNAME cpu -irlen 4 -ircapture 0x1 -irmask 0xf -expected-id $_CPUTAPID
+dap create $_CHIPNAME.dap -chain-position $_CHIPNAME.cpu
+
+if {![using_hla]} {
+	target create $_CHIPNAME.ap5 mem_ap -dap $_CHIPNAME.dap -ap-num 5
+	target create $_CHIPNAME.ap2 mem_ap -dap $_CHIPNAME.dap -ap-num 2
+}
+
+set _TARGETNAME $_CHIPNAME.cpu
+target create $_TARGETNAME cortex_m -endian $_ENDIAN -dap $_CHIPNAME.dap -ap-num 0
+
+$_TARGETNAME configure -work-area-phys 0x20100000 -work-area-size $_WORKAREASIZE -work-area-backup 0
+
+set _FLASHNAME $_CHIPNAME.flash
+flash bank $_FLASHNAME a8v2_m7 0 0 0 0 $_TARGETNAME
+
+targets $_CHIPNAME.cpu
+
+adapter speed 1000
+
+adapter srst delay 100
+if {[using_jtag]} {
+ jtag_ntrst_delay 100
+}
+
+#reset_config trst_and_srst srst_nogate
+#reset_config srst_only srst_nogate
+reset_config none 
+
+if {![using_hla]} {
+   # if srst is not fitted use SYSRESETREQ to
+   # perform a soft reset
+   cortex_m reset_config sysresetreq
+   
+   # Set CSW[27], which according to ARM ADI v5 appendix E1.4 maps to AHB signal
+   # HPROT[3], which according to AMBA AHB/ASB/APB specification chapter 3.7.3
+   # makes the data access cacheable. This allows reading and writing data in the
+   # CPU cache from the debugger, which is far more useful than going straight to
+   # RAM when operating on typical variables, and is generally no worse when
+   # operating on special memory locations.
+   $_CHIPNAME.dap apcsw 0x08000000 0x08000000
+}
+
+$_CHIPNAME.ap5 configure -event examine-end {
+	echo "Chip ID:[alioth_security_jtag_mrw 0x14]-[alioth_security_jtag_mrw 0x18]-[alioth_security_jtag_mrw 0x1c]-[alioth_security_jtag_mrw 0x20]"
+	echo "Extended ID:[alioth_security_jtag_mrw 0x24]-[alioth_security_jtag_mrw 0x28]-[alioth_security_jtag_mrw 0x2c]-[alioth_security_jtag_mrw 0x30]"
+
+	if {([alioth_security_jtag_mrw 0x10] & 0x03) == 2} {
+		# debug_key_0
+		alioth_security_jtag_mmw 0x0 0x5 0xFFFFFFFF
+		# debug_key_1
+		alioth_security_jtag_mmw 0x4 0x6 0xFFFFFFFF
+		# debug_key_2
+		alioth_security_jtag_mmw 0x8 0x7 0xFFFFFFFF
+		# debug_key_3
+		alioth_security_jtag_mmw 0xc 0x8 0xFFFFFFFF
+	}
+}
+
+$_CHIPNAME.ap2 configure -event examine-end {
+	if {[alioth_global_debug_mrw 0x4] == 0x0} {
+		# DBG_GLB_CR |= debg_hold_cm7 | gdb_lp_ctl_en | gdb_clk_ctl_en
+		alioth_global_debug_mmw 0x4 0x16 0xFFFFFFFF
+		
+		# DBG_CLK_CR1 |= clk_can2 | clk_can1 | clk_can0
+		alioth_global_debug_mmw 0x204 0xE0000000 0xFFFFFFFF
+		
+		# DBG_CLK_CR2 |= clk_fcu | m7_clken | clk_gtm | clk_can7 | clk_can6 | clk_can5 | clk_can4 | clk_can3
+		alioth_global_debug_mmw 0x208 0x2240001f 0xFFFFFFFF
+		
+		# DBG_LP_CR |= eco_stop | osc_disable | flash_pd
+		alioth_global_debug_mmw 0x300 0x7 0xFFFFFFFF
+		
+		# DBG_M7_WAIT |= cm7_wait
+		alioth_global_debug_mmw 0x404 0x1 0xFFFFFFFF
+	}
+}
+
+$_CHIPNAME.cpu configure -event examine-end {
+	a8v2_m7.dap apreg 0 0x4 0xe000edf0	
+	a8v2_m7.dap apreg 0 0xc 0xa05f0003
+	
+	a8v2_m7.dap apreg 2 0x4 0x40071404	
+	a8v2_m7.dap apreg 2 0xc 0x00000000
+	
+	a8v2_m7.dap apreg 2 0x4 0x40071004	
+	a8v2_m7.dap apreg 2 0xc 0x00000006
+}
+
+
+$_CHIPNAME.cpu configure -event halted {
+	mww 0xE0001000 0x01
+	
+	if {([mrw 0x40192008] & 0x100) != 0x100} {
+		if {([mrw 0x40192014] & 0x40000000) == 0x40000000} {
+			mww 0x401920A0 0x8
+			mww 0x401920A4 0x7
+			mww 0x401920A8 0x6
+			mww 0x401920AC 0x5
+		} else {
+			mww 0x401920A0 0x54544139
+		}
+	
+		mww 0x40192004 0x45670123
+		mww 0x40192004 0xCDEF89AB
+		mww 0x40192008 0x100
+	}	
+}
+
+# get _CHIPNAME from current target
+proc alioth_get_chipname {} {
+	set t [target current]
+	set sep [string last "." $t]
+	if {$sep == -1} {
+		return $t
+	}
+	return [string range $t 0 [expr {$sep - 1}]]
+}
+
+# like mrw, but with target selection
+proc alioth_mrw {used_target reg} {
+	set value ""
+	$used_target mem2array value 32 $reg 1
+	return $value(0)
+}
+
+# like mmw, but with target selection
+proc alioth_mmw {used_target reg setbits clearbits} {
+	set old [alioth_mrw $used_target $reg]
+	set new [expr {($old & ~$clearbits) | $setbits}]
+	$used_target mww $reg $new
+}
+
+proc alioth_global_debug_mrw {reg_offset} {
+	if {![using_hla]} {
+		set _CHIPNAME [alioth_get_chipname]
+		set used_target $_CHIPNAME.ap2
+		set reg_addr [expr {0x40071000 + $reg_offset}]
+	}
+
+	alioth_mrw $used_target $reg_addr
+}
+
+proc alioth_global_debug_mmw {reg_offset setbits clearbits} {
+	if {![using_hla]} {
+		set _CHIPNAME [alioth_get_chipname]
+		set used_target $_CHIPNAME.ap2
+		set reg_addr [expr {0x40071000 + $reg_offset}]
+	}
+
+	alioth_mmw $used_target $reg_addr $setbits $clearbits
+}
+
+proc alioth_security_jtag_mmw {reg_offset setbits clearbits} {
+	if {![using_hla]} {
+		set _CHIPNAME [alioth_get_chipname]
+		set used_target $_CHIPNAME.ap5
+		set reg_addr [expr {0x0 + $reg_offset}]
+	}
+
+	alioth_mmw $used_target $reg_addr $setbits $clearbits
+}
+
+proc alioth_security_jtag_mrw {reg_offset} {
+	if {![using_hla]} {
+		set _CHIPNAME [alioth_get_chipname]
+		set used_target $_CHIPNAME.ap5
+		set reg_addr [expr {0x0 + $reg_offset}]
+	}
+
+	alioth_mrw $used_target $reg_addr
+}
+
+cortex_m set_reset_utime 10
+
+
+#cortex_m set_flash_key 8 7 6 5
+
+cortex_m set_obliterated_data 1
+
+
+

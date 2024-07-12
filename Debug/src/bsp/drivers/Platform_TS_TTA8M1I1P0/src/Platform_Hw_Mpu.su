@@ -1,0 +1,14 @@
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:218:Platform_Hw_Mpu_Init	24	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:382:Platform_Hw_Mpu_GetDRegion	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:340:Platform_Hw_Mpu_Deinit	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:410:Platform_Hw_Mpu_SetRegionConfig	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:508:Platform_Hw_Mpu_EnableRegion	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:574:Platform_Hw_Mpu_SetAccessRight	8	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:633:Platform_Hw_Mpu_GetErrorDetails	8	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:712:Platform_Hw_Mpu_Enable	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:737:Platform_Hw_Mpu_Disable	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:762:Platform_Hw_Mpu_ClrRegion	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:785:Platform_Hw_Mpu_SetRegion	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:809:Platform_Hw_Mpu_SetRegionEx	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:856:Platform_Hw_Mpu_Load	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Mpu.c:894:Platform_Hw_Mpu_ConfigRegion	8	static

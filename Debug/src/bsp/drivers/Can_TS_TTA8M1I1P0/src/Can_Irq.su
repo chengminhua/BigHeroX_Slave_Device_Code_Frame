@@ -1,0 +1,5 @@
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Irq.c:136:Can_ProcessMesgBufferCommonInterrupt	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Irq.c:215:Can_ProcessBusOffInterrupt	8	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Irq.c:263:Can_ProcessErrorInterrupt	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Irq.c:349:Can_CommonIrqCallback	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Irq.c:462:Can_ErrorIrqCallback	0	static

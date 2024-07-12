@@ -1,0 +1,9 @@
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:220:Base_Drv_Init	24	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:282:Base_Drv_Uninit	0	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:318:Base_Drv_Timer_GetCounter	8	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:352:Base_Drv_Timer_GetElapsed	8	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:384:Base_Drv_Timer_MicrosToTicks	8	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:430:Base_Drv_Usdelay	32	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:473:Base_Drv_Msdelay	8	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:505:Base_Drv_UnlockProtReg	0	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Drv.c:533:Base_Drv_LockProtReg	0	static

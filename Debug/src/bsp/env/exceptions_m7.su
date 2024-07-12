@@ -1,0 +1,11 @@
+../src/bsp/env/exceptions_m7.c:179:NMI_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:189:HardFault_IRQHandler_c	56	static
+../src/bsp/env/exceptions_m7.c:263:MemManage_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:271:BusFault_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:279:UsageFault_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:288:SVC_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:297:DebugMon_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:305:PendSV_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:313:SysTick_IRQHandler	8	static
+../src/bsp/env/exceptions_m7.c:321:Default_IRQHandler_c	0	static
+../src/bsp/env/exceptions_m7.c:338:SHDN_IRQHandler	0	static

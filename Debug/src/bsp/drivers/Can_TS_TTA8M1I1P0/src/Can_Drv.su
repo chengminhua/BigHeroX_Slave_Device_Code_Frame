@@ -1,0 +1,17 @@
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:494:Can_Drv_Init	40	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:921:Can_Drv_SetControllerToStartMode	32	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:633:Can_Drv_DeInit	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1089:Can_Drv_SetControllerToStopMode	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1227:Can_Drv_DisableControllerInterrupts	32	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1300:Can_Drv_EnableControllerInterrupts	32	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1378:Can_Drv_CheckWakeup	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1417:Can_Drv_GetControllerErrorState	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1455:Can_Drv_GetControllerTxErrorCounter	8	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1485:Can_Drv_GetControllerRxErrorCounter	8	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1523:Can_Drv_Write	64	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1687:Can_Drv_MainFunction_Write	40	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1901:Can_Drv_MainFunction_Mode	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:1974:Can_Drv_ProcessTxMesgBuffer	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:2037:Can_Drv_ProcessRxMesgBuffer	48	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:2866:Can_Drv_PriParseData	24	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Drv.c:3379:Can_Drv_PriInitRx	56	static

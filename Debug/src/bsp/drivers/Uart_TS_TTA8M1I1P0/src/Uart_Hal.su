@@ -1,0 +1,9 @@
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:150:Uart_Hal_Init	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:220:Uart_Hal_DeInit	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:259:Uart_Hal_SyncTransmit	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:295:Uart_Hal_AsyncTransmit	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:329:Uart_Hal_SyncReceive	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:363:Uart_Hal_AsyncReceive	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:396:Uart_Hal_GetStatus	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:436:Uart_Hal_GetErrorStatus	0	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Hal.c:471:Uart_Hal_SetBaudrate	0	static

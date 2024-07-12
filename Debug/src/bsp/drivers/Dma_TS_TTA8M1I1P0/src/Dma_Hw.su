@@ -1,0 +1,17 @@
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:280:Dma_Hw_Init	16	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:332:Dma_Hw_DeInit	16	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:391:Dma_Hw_ChannelConfigure	72	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:1246:Dma_Hw_PriSetControl	60	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:507:Dma_Hw_OneShotTrigger	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:554:Dma_Hw_DisableContinuation	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:592:Dma_Hw_DisableOneShot	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:631:Dma_Hw_ChannelEnable	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:662:Dma_Hw_ChannelDisable	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:699:Dma_Hw_ChannelGetCount	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:728:Dma_Hw_ChannelGetStatus	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:760:Dma_Hw_Softwaretrigger	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:917:GPDMA0_COMBINE_IRQHandler	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:813:Dma_Hw_PriCombineIrqHandler	40	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:928:GPDMA1_COMBINE_IRQHandler	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:939:GPDMA2_COMBINE_IRQHandler	0	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Hw.c:950:GPDMA3_COMBINE_IRQHandler	0	static

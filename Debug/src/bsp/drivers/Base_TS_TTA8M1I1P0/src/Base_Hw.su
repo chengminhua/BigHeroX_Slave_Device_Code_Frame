@@ -1,0 +1,3 @@
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Hw.c:137:Base_Hw_Init	0	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Hw.c:197:Base_Hw_Timer_GetCounter	0	static
+../src/bsp/drivers/Base_TS_TTA8M1I1P0/src/Base_Hw.c:225:Base_Hw_Timer_GetElapsed	0	static

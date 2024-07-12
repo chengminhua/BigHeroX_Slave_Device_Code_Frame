@@ -1,0 +1,12 @@
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:330:Gtm_Hw_Tim_Configure	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:419:Gtm_Hw_Tim_DeInit	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:459:Gtm_Hw_Tim_StartMeasure	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:536:Gtm_Hw_Tim_StopMeasure	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:592:Gtm_Hw_Tim_GetStatusFlags	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:647:Gtm_Hw_Tim_ClearStatusFlag	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:738:Gtm_Hw_Tim_SetTimValx	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:788:Gtm_Hw_Tim_SetInput	8	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:845:Gtm_Hw_Tim_SetTimInt	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:904:Gtm_Hw_Tim_GetPwmInformation	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:1035:Gtm_Hw_Tim_GetMeasureInformation	0	static
+../src/bsp/drivers/Gtm_TS_TTA8M1I1P0/src/Gtm_Hw_Tim.c:1082:Gtm_Hw_Tim_GetPulseTime	0	static

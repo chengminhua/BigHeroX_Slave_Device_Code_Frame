@@ -1,0 +1,15 @@
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:324:Mcu_Hw_Pmu_GetUserValue	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:364:Mcu_Hw_Pmu_SetUserValue	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:399:Mcu_Hw_Pmu_LocalReset	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:417:Mcu_Hw_Pmu_ConfigNmi	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:474:Mcu_Hw_Pmu_ConfigGpio	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:528:Mcu_Hw_Pmu_GetResetRawValue	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:555:Mcu_Hw_Pmu_GetResetReason	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:603:Mcu_Hw_Pmu_EnterStandby	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:630:Mcu_Hw_Pmu_EnterSleep	32	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:745:Mcu_Hw_Pmu_ConfigMode	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:1222:Mcu_Hw_Pmu_PriConfigHsmDown	8	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:868:Mcu_Hw_Pmu_SetCallBack	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:889:Mcu_Hw_Pmu_SetHsmCipPowerDown	16	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:987:Mcu_Hw_Pmu_GetHsmCipPowerDown	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Pmu.c:1559:PMU_IRQHandler	0	static

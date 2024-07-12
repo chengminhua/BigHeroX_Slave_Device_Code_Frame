@@ -1,0 +1,3 @@
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Misc.c:131:Mcu_Hw_Misc_LocalResetModules	24	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Misc.c:215:Mcu_Hw_Misc_PerformReset	0	static
+../src/bsp/drivers/Mcu_TS_TTA8M1I1P0/src/Mcu_Hw_Misc.c:247:Mcu_Hw_Misc_FcuTimingConfig	16	static

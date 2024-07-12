@@ -1,0 +1,3 @@
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Misc.c:117:Platform_Hw_Misc_SetVector	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Misc.c:152:Platform_Hw_Misc_GetVector	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Misc.c:183:Platform_Hw_Misc_GetFPUType	0	static

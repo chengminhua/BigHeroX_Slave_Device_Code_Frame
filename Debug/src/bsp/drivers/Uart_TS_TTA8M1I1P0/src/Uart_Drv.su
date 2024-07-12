@@ -1,0 +1,9 @@
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:181:Uart_Drv_Init	16	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:270:Uart_Drv_DeInit	16	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:324:Uart_Drv_SyncTransmit	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:362:Uart_Drv_AsyncTransmit	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:401:Uart_Drv_SyncReceive	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:439:Uart_Drv_AsyncReceive	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:475:Uart_Drv_GetStatus	8	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:525:Uart_Drv_GetErrorStatus	24	static
+../src/bsp/drivers/Uart_TS_TTA8M1I1P0/src/Uart_Drv.c:579:Uart_Drv_SetBaudrate	24	static

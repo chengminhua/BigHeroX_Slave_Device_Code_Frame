@@ -1,0 +1,13 @@
+../src/motor.c:45:Disable_Tode_Motor	64	static
+../src/motor.c:71:Enable_Tode_Motor	64	static
+../src/motor.c:97:Clear_Error_Tode_Motor	64	static
+../src/motor.c:123:tode_moto_init_re	72	static
+../src/motor.c:296:tode_moto_init	72	static
+../src/motor.c:466:Set_TodeMotor_Spd	64	static
+../src/motor.c:575:Set_DJmoto_Spd	40	static
+../src/motor.c:607:set_pwmch1_frequency	8	static
+../src/motor.c:622:set_pwmch2_frequency	8	static
+../src/motor.c:638:Set_justmotion_Spd	8	static
+../src/motor.c:665:Set_Moto_Spd	24	static
+../src/motor.c:691:Get_Measure	8	static
+../src/motor.c:708:send_motor_data	64	static

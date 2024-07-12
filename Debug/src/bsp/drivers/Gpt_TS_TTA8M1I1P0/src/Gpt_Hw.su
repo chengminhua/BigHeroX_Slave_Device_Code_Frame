@@ -1,0 +1,9 @@
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:167:Gpt_Hw_Init	8	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:235:Gpt_Hw_PredefTimerInit	8	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:297:Gpt_Hw_DeInit	8	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:333:Gpt_Hw_PredefTimerDeInit	8	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:371:Gpt_Hw_StartTimer	0	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:414:Gpt_Hw_StopTimer	0	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:453:Gpt_Hw_GetCounter	0	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:489:Gpt_Hw_StopFtmModuleTimer	0	static
+../src/bsp/drivers/Gpt_TS_TTA8M1I1P0/src/Gpt_Hw.c:508:Gpt_Hw_ClearOverflowIrqFlag	0	static

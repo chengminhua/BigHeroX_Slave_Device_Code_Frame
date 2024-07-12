@@ -1,0 +1,11 @@
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:206:Dma_Drv_Init	16	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:252:Dma_Drv_DeInit	16	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:305:Dma_Drv_ChannelConfigure	32	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:389:Dma_Drv_ChannelEnable	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:418:Dma_Drv_ChannelDisable	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:441:Dma_Drv_ChannelGetStatus	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:464:Dma_Drv_ChannelGetCount	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:498:Dma_Drv_OneShotTrigger	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:532:Dma_Drv_DisableOneShot	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:553:Dma_Drv_DisableContinuation	8	static
+../src/bsp/drivers/Dma_TS_TTA8M1I1P0/src/Dma_Drv.c:576:Dma_Drv_Softwaretrigger	8	static

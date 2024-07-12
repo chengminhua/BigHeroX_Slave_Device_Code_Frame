@@ -1,0 +1,2 @@
+../src/bsp/nano_stubs/write.c:113:puts	16	static
+../src/bsp/nano_stubs/write.c:145:printf	544	static

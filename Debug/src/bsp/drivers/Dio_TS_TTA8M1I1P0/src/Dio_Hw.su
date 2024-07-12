@@ -1,0 +1,7 @@
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:122:Dio_Hw_ReadChannel	8	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:158:Dio_Hw_WriteChannel	0	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:206:Dio_Hw_ReadPort	8	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:235:Dio_Hw_ReadChannelGroup	0	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:266:Dio_Hw_WritePort	0	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:298:Dio_Hw_WriteChannelGroup	0	static
+../src/bsp/drivers/Dio_TS_TTA8M1I1P0/src/Dio_Hw.c:337:Dio_Hw_FlipChannel	8	static

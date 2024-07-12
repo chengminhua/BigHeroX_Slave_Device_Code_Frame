@@ -1,0 +1,12 @@
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:120:Platform_Hw_Cache_EnableICache	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:160:Platform_Hw_Cache_DisableICache	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:190:Platform_Hw_Cache_InvalidateICache	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:213:Platform_Hw_Cache_AddrInvalidICache	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:249:Platform_Hw_Cache_EnableDCache	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:315:Platform_Hw_Cache_DisableDCache	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:374:Platform_Hw_Cache_InvalidateDCache	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:420:Platform_Hw_Cache_CleanDCache	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:467:Platform_Hw_Cache_CleanInvalidateDCache	16	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:517:Platform_Hw_Cache_AddrInvalidateDCache	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:562:Platform_Hw_Cache_AddrCleanDCache	0	static
+../src/bsp/drivers/Platform_TS_TTA8M1I1P0/src/Platform_Hw_Cache.c:608:Platform_Hw_Cache_AddrCleanInvalidateDCache	0	static

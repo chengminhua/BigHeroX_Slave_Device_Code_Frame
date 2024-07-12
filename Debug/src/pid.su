@@ -1,0 +1,6 @@
+../src/pid.c:41:abs_limit	0	static
+../src/pid.c:80:pid_calc	0	static
+../src/pid.c:127:pid_sp_calc	0	static
+../src/pid.c:169:PID_struct_init	0	static
+../src/pid.c:48:pid_param_init	0	static
+../src/pid.c:68:pid_reset	0	static

@@ -1,0 +1,15 @@
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:134:CAN_Mbor1_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:138:CAN_Error1_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:142:CAN_Busoff1_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:147:CAN_EnhancedRxFifo1_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:152:CAN_TXRX_Warnning1_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:165:CAN_Mbor2_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:169:CAN_Error2_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:173:CAN_Busoff2_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:178:CAN_EnhancedRxFifo2_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:183:CAN_TXRX_Warnning2_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:227:CAN_Mbor4_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:231:CAN_Error4_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:235:CAN_Busoff4_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:240:CAN_EnhancedRxFifo4_IRQHandler	0	static
+../src/bsp/drivers/Can_TS_TTA8M1I1P0/src/Can_Hw_Irq.c:245:CAN_TXRX_Warnning4_IRQHandler	0	static

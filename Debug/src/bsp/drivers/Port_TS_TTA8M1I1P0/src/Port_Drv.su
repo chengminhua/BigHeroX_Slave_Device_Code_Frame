@@ -1,0 +1,5 @@
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Drv.c:224:Port_Drv_Init	16	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Drv.c:299:Port_Drv_SetPinDirection	8	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Drv.c:332:Port_Drv_SetPinMode	8	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Drv.c:365:Port_Drv_SetPinAllCfg	8	static
+../src/bsp/drivers/Port_TS_TTA8M1I1P0/src/Port_Drv.c:398:Port_Drv_GetVersionInfo	0	static
